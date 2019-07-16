@@ -1,0 +1,758 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"conso",
+				"console_log"
+			],
+			[
+				"c",
+				"click\t.click()"
+			],
+			[
+				"img",
+				"img/"
+			],
+			[
+				"i",
+				"img2/"
+			],
+			[
+				"fu",
+				"Function\t( paramsAndBody_..: string ): Function Function"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"style",
+				"style\tAttr"
+			],
+			[
+				"b",
+				"bitstamp.png\tw:160 h:51"
+			],
+			[
+				"pa",
+				"pattern.png\tw:963 h:606"
+			],
+			[
+				"last",
+				"lastChild\t: Node Node"
+			],
+			[
+				"getElementBy",
+				"getElementsByTagName\t( localName: DOMString ): HTMLCollection Element"
+			],
+			[
+				"todo",
+				"todo_delete.png\tw:14 h:16"
+			],
+			[
+				"parent",
+				"parent_plus.png\tw:22 h:22"
+			],
+			[
+				"tabs",
+				"tabs_item_icon_file.png\tw:19 h:24"
+			],
+			[
+				"define",
+				"defineProperties\t( o: Object, props: any ): Object Object"
+			],
+			[
+				"cons",
+				"console_log"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"php",
+				"phpinfo"
+			],
+			[
+				"selec",
+				"selectric-rd_type_arrow.png\tw:12 h:12"
+			],
+			[
+				"rd1",
+				"rd1_header2_buttons_edit.png\tw:16 h:17"
+			],
+			[
+				"ar",
+				"attr\t.attr() - single"
+			],
+			[
+				"cha",
+				"change\t.change()"
+			],
+			[
+				"b1",
+				"b1_act_img.png\tw:283 h:311"
+			],
+			[
+				"cs",
+				"css\t.css() - single"
+			],
+			[
+				"b7",
+				"b7_sert1.jpg\tw:255 h:368"
+			],
+			[
+				"b5",
+				"b5_i_1.png\tw:51 h:39"
+			],
+			[
+				"pe",
+				"pe_content_bar2_edit.png\tw:21 h:21"
+			],
+			[
+				"b3_s",
+				"b3_item_share_list.png\tw:20 h:16"
+			],
+			[
+				"b3_",
+				"b3_item_more_delate.png\tw:14 h:17"
+			],
+			[
+				"rem",
+				"removeClass\t.removeClass()"
+			],
+			[
+				"b3",
+				"b3_icons_icon1.png\tw:48 h:52"
+			],
+			[
+				"b4",
+				"b4_row_checkbox_tick.png\tw:16 h:12"
+			],
+			[
+				"css",
+				"css\t.css() - single"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"my",
+				"mystory/"
+			],
+			[
+				"lo",
+				"logo.png\tw:259 h:49"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"va",
+				"valign\tAttr"
+			],
+			[
+				"has",
+				"hasClass\t.hasClass()"
+			],
+			[
+				"add",
+				"addClass\t.addClass()"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"wi",
+				"window"
+			],
+			[
+				"scr",
+				"scrolltop"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"ou",
+				"outside_catering_hover.png\tw:226 h:226"
+			],
+			[
+				"op",
+				"option_title_bg.png\tw:287 h:61"
+			],
+			[
+				"de",
+				"deliveroo_hover.png\tw:226 h:226"
+			],
+			[
+				"im",
+				"imtext4.jpg\tw:346 h:33"
+			],
+			[
+				"j",
+				"books.jpg\tw:1170 h:567"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"dr",
+				"drink2_hover.png\tw:226 h:226"
+			],
+			[
+				"sa",
+				"sans-serif"
+			],
+			[
+				"gal",
+				"gal_item_hov.png\tw:210 h:180"
+			],
+			[
+				"cou",
+				"contactus_icon1.png\tw:15 h:24"
+			],
+			[
+				"off",
+				"offer4.png\tw:181 h:180"
+			],
+			[
+				"f",
+				"offer1.png\tw:181 h:180"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"fade",
+				"fadeIn\t.fadeIn()"
+			],
+			[
+				"slide",
+				"slideDown\t.slideDown()"
+			],
+			[
+				"sear",
+				"search_arrow.png\tw:15 h:9"
+			],
+			[
+				"bl",
+				"blog/"
+			],
+			[
+				"att",
+				"attr\t.attr() - single"
+			],
+			[
+				"atr",
+				"attachFormValidator"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 85.0,
+		"last_filter": "beaut",
+		"selected_items":
+		[
+			[
+				"beaut",
+				"HTMLBeautify"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"bea",
+				"HTMLBeautify"
+			],
+			[
+				"prea",
+				"HTMLPrettify: Set Keyboard Shortcuts"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"intel",
+				"SublimeCodeIntel: Enable Live Autocompletion for Current Language"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inta",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"htn",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ht",
+				"HTMLBeautify"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 458.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Sergey Bruh/Desktop/test task/project/css/main.css",
+		"/C/os/OSPanel/domains/url.loc/files/index.php",
+		"/C/os/OSPanel/domains/url.loc/files/.htaccess",
+		"/C/os/OSPanel/domains/url.loc/index.html",
+		"/C/Users/Sergey Bruh/Downloads/database (1).php",
+		"/C/Users/Sergey Bruh/Downloads/config.php",
+		"/C/Users/Sergey Bruh/Downloads/database.php",
+		"/C/Users/Sergey Bruh/Desktop/prom/Барабашов/sns самокат/keys",
+		"/C/Users/Sergey Bruh/Downloads/Home.php",
+		"/C/Users/Sergey Bruh/AppData/Local/Temp/Rar$DIa0.642/TodoItem.vue",
+		"/C/Users/Sergey Bruh/AppData/Local/Temp/Rar$DIa0.187/main.js",
+		"/C/Users/Sergey Bruh/AppData/Local/Temp/Rar$DIa0.118/main.js",
+		"/C/Users/Sergey Bruh/AppData/Local/Temp/Rar$DIa0.155/vue.config.js",
+		"/C/Users/Sergey Bruh/AppData/Local/Temp/fz3temp-2/style.css",
+		"/C/Users/Sergey Bruh/Desktop/New folder/index.html",
+		"/C/Users/Sergey Bruh/neruhomist.top/lnd3.html",
+		"/C/Users/Sergey Bruh/neruhomist.top/lnd2.html",
+		"/C/Users/Sergey Bruh/neruhomist.top/css/style.css",
+		"/C/Users/Sergey Bruh/neruhomist.top/index - Copy.html",
+		"/C/Users/Sergey Bruh/neruhomist.top/index.html",
+		"/C/Users/Sergey Bruh/neruhomist.top/js/script.js",
+		"/C/php7/php.ini-production",
+		"/C/Users/Sergey Bruh/project951059.tilda.ws/page4508673.html",
+		"/C/Users/Public/Desktop/desktop.ini",
+		"/C/Users/Sergey Bruh/Documents/upwork-javascript-test-master/ask.js",
+		"/C/Windows.old/Users/Sergey Bruh/AppData/Local/Microsoft/Windows/Explorer/iconcache_custom_stream.db",
+		"/C/Users/Sergey Bruh/Documents/Artelogic/sublime/Data/Packages/HTML-CSS-JS Prettify/build/js-transpiled/node_modules/lodash/subtract.js",
+		"/C/Users/Sergey Bruh/Documents/MEGAsync/Projects/upqode/index.html",
+		"/C/Users/Sergey Bruh/AppData/Local/Temp/fz3temp-2/page1740076.html",
+		"/C/Users/Sergey Bruh/AppData/Local/Temp/fz3temp-2/.htaccess",
+		"/C/OpenServer/OSPanel/domains/gaffr/resources/assets/frontend/js/pages/collaborators.js",
+		"/C/OpenServer/OSPanel/domains/gaffr/resources/assets/frontend/js/app.js",
+		"/C/OpenServer/OSPanel/domains/gaffr/resources/assets/frontend/js/pages/project-form.js",
+		"/C/Users/Sergey Bruh/AppData/Local/Temp/fz3temp-2/index.php",
+		"/C/OpenServer/OSPanel/domains/gaffr/public/js/app.js",
+		"/C/OpenServer/OSPanel/domains/gaffr/package.json",
+		"/C/OpenServer/OSPanel/domains/gaffr/resources/views/frontend/project/form.blade.php",
+		"/C/OpenServer/OSPanel/domains/gaffr/resources/assets/frontend/sass/components/project-form.scss",
+		"/C/OpenServer/OSPanel/domains/gaffr/resources/views/frontend/discover.blade.php",
+		"/C/OpenServer/OSPanel/domains/gaffr/resources/views/frontend/markup/reviewVideo.blade.php",
+		"/C/OpenServer/OSPanel/domains/gaffr/resources/assets/frontend/sass/pages/reviewVideo.scss",
+		"/C/Users/Sergey Bruh/Documents/Artelogic/projects/gaffr/resources/assets/frontend/js/app.js",
+		"/C/Users/Sergey Bruh/Documents/Artelogic/projects/gaffr/resources/assets/frontend/sass/app.scss",
+		"/C/Users/Sergey Bruh/Documents/Artelogic/projects/gaffr/resources/assets/frontend/html/addNew.html",
+		"/C/Users/Sergey Bruh/Documents/Artelogic/projects/gaffr/resources/assets/frontend/sass/pages/add_project_step_1.2.scss",
+		"/C/Users/Sergey Bruh/Documents/Artelogic/projects/gaffr/resources/assets/frontend/sass/_mixins.scss",
+		"/C/Users/Sergey Bruh/Documents/Artelogic/projects/gaffr/resources/assets/frontend/sass/_variables.scss",
+		"/C/Users/Sergey Bruh/Documents/Artelogic/projects/gaffr/resources/assets/frontend/sass/components/project-form.scss",
+		"/C/Users/Sergey Bruh/Documents/Artelogic/projects/gaffr/resources/assets/frontend/sass/components/collaborators.scss",
+		"/C/Users/Sergey Bruh/Documents/Artelogic/projects/gaffr/resources/views/frontend/collaborator/add_collaborator.blade.php",
+		"/C/Users/Sergey Bruh/Documents/Artelogic/projects/gaffr/resources/views/frontend/discover.blade.php",
+		"/C/Users/Sergey Bruh/Documents/Artelogic/projects/gaffr/resources/assets/frontend/sass/components/projects-grid.scss",
+		"/C/Users/Sergey Bruh/Documents/Artelogic/projects/gaffr/bootstrap/app.php",
+		"/C/Users/Sergey Bruh/Documents/Artelogic/projects/gaffr/resources/assets/frontend/sass/components/button-primary.scss",
+		"/C/Users/Sergey Bruh/Documents/Artelogic/projects/gaffr/resources/views/layouts/frontend.blade.php",
+		"/C/Users/Sergey Bruh/Documents/Artelogic/projects/gaffr/resources/assets/frontend/sass/components/header.scss",
+		"/C/Users/Sergey Bruh/Documents/Artelogic/projects/gaffr/webpack.mix.js",
+		"/C/Users/Sergey Bruh/vue js/index.html",
+		"/C/Users/Sergey Bruh/Downloads/vue.js",
+		"/C/Users/Sergey Bruh/AppData/Local/Temp/fz3temp-2/envira-gallery.php",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/domains/myblog.loc/index.php",
+		"/C/Users/Sergey Bruh/AppData/Local/Temp/fz3temp-2/orders.php",
+		"/C/Users/Sergey Bruh/AppData/Local/Temp/fz3temp-2/test.php",
+		"/C/Users/Sergey Bruh/Documents/MEGAsync/Projects/upqode/src/main.scss",
+		"/C/OpenServer/domains/myblog.loc/index.php",
+		"/C/Users/Sergey Bruh/Documents/MEGAsync/Projects/upqode/css/main.css",
+		"/C/Users/Sergey Bruh/Documents/MEGAsync/Projects/upqode/src/main.less",
+		"/C/Users/Sergey Bruh/Documents/MEGAsync/Projects/upqode/src/media.less",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/domains/sergey.pp.ua/wp-content/themes/sergey_test/index.php",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/domains/sergey.pp.ua/wp-content/themes/sergey_test/js/common.js",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/domains/sergey.pp.ua/wp-content/themes/sergey_test/src/main.scss",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/domains/sergey.pp.ua/wp-content/themes/sergey_test/src/media.scss",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/Projects/rivegauchelondon.com/html/index.php",
+		"/C/Users/Sergey Bruh/AppData/Local/Temp/fz3temp-2/wp-config.php",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/domains/sergey.pp.ua/wp-content/themes/sergey_test/functions.php",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/Projects/AXO/AXO backup/AXODigital/wp-content/themes/axo/index.php",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/Projects/AXO/AXO backup/AXODigital/wp-content/themes/axo/page.php",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/Projects/AXO/AXO backup/AXODigital/wp-content/themes/axo/single-branding.php",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/Projects/AXO/AXO backup/AXODigital/wp-content/themes/axo/home-page.php",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/Projects/AXO/AXO backup/AXODigital/wp-content/themes/axo/branding.php",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/Projects/AXO/AXO backup/AXODigital/wp-content/themes/axo/functions.php",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/domains/sergey.pp.ua/wp-content/themes/sergey_test/footer.php",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/Projects/AXO/AXO backup/AXODigital/wp-content/themes/axo/header.php",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/Projects/Raoulsgourmet.com/Backup raolus 091216/wp-content/themes/raolus/style.css",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/Projects/сoffee/index.html",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/Projects/test.loc/css/main.css",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/Projects/test.loc/src/media.scss",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/Projects/test.loc/js/common.js",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/Projects/test.loc/css/media.css",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/Projects/test.loc/src/main.scss",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/Projects/test.loc/src/main.sass",
+		"/C/Users/Sergey Bruh/AppData/Local/Temp/fz3temp-2/_mystyles.css",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/Novus Cerebrum - Projects/Casino - simple/css/style.less",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/Novus Cerebrum - Projects/Casino - simple/js/main.js",
+		"/C/Users/Sergey Bruh/Desktop/miracleflower.kz/old.php",
+		"/C/Users/Sergey Bruh/AppData/Local/Temp/fz3temp-2/media.css",
+		"/C/Users/Sergey Bruh/AppData/Local/Temp/fz3temp-2/myscripts.js",
+		"/C/Users/Sergey Bruh/Desktop/AAAAAAAA/ddddd/cm24-7.ru/mail.js",
+		"/C/Users/Sergey Bruh/Desktop/index.php",
+		"/C/Users/Sergey Bruh/Documents/MEGAsync/Projects/lending.flox.com.ua/index.php",
+		"/C/Users/Sergey Bruh/Desktop/miracleflower.kz/_/css/media.css",
+		"/C/Users/Sergey Bruh/Desktop/miracleflower.kz/index.html",
+		"/C/Users/Sergey Bruh/Desktop/miracleflower.kz/index.php",
+		"/C/Users/Sergey Bruh/Desktop/miracleflower.kz/_/css/_mystyles.css",
+		"/C/Users/Sergey Bruh/Desktop/miracleflower.kz/_/css/animations.css",
+		"/C/Users/Sergey Bruh/Desktop/miracleflower.kz/_/css/bootstrap.min.css",
+		"/C/Users/Sergey Bruh/AppData/Local/Temp/fz3temp-2/telegram.php",
+		"/C/Users/Sergey Bruh/Desktop/miracleflower.kz/_/js/myscripts.js",
+		"/C/Users/Sergey Bruh/Desktop/aaaa/index.html",
+		"/C/Users/Sergey Bruh/Desktop/aaaa/miracleflower.kz/index.html",
+		"/C/Users/Sergey Bruh/AppData/Local/Temp/fz3temp-2/functions.php",
+		"/C/Users/Sergey Bruh/AppData/Local/Temp/fz3temp-2/laborator_actions.php",
+		"/C/Users/Sergey Bruh/AppData/Local/Temp/fz3temp-2/main.js",
+		"/C/Users/Sergey Bruh/Desktop/main.html",
+		"/C/Users/Sergey Bruh/Desktop/Syncline/js/common.js",
+		"/C/Users/Sergey Bruh/Desktop/Syncline/src/main.less",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/Novus Cerebrum - Projects/Casino - black/css/grid.css",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/Novus Cerebrum - Projects/Casino - black/css/main.less",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/Novus Cerebrum - Projects/Casino - black/css/style.less",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/Novus Cerebrum - Projects/Casino - black/other files/main.minc164.js",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/Novus Cerebrum - Projects/Casino - black/css/selectric.css",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/Novus Cerebrum - Projects/Casino - black/css/reset.css",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/Novus Cerebrum - Projects/Casino - black/css/slide_1.less",
+		"/C/Users/Sergey Bruh/Desktop/Jewelry_implants/index.html",
+		"/C/Users/Sergey Bruh/Desktop/Jewelry_implants/js/common.js",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/Novus Cerebrum - Projects/Casino - black/css/main.css",
+		"/C/Users/Sergey Bruh/Desktop/AAAAAAAA/black/www.invisionapp.com/assets/js/main.minc164.js",
+		"/C/Users/Sergey Bruh/Dropbox (Lucidica)/Novus Cerebrum - Projects/Casino Landing Version/output/main.css"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 107.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"owl-carousel",
+			"justify",
+			"backgro",
+			"echo",
+			"\"",
+			"\n",
+			"<style>…</style>",
+			"t446",
+			" t-tildalabel-free",
+			"t712",
+			".t712",
+			".t712__",
+			".t712_form",
+			".t712__form",
+			"Олександ",
+			".upload-photos",
+			".step-navigation",
+			"content",
+			"block480",
+			"hoverable",
+			"-item",
+			"project-item",
+			"style",
+			"csc",
+			"css",
+			"/wp-content/themes/sergey_test/img/city.jpg",
+			"people_main",
+			"_ul",
+			"_li",
+			"_ul",
+			"_li",
+			"b1_ul,",
+			".b5 {",
+			".b5",
+			"b5",
+			"hv",
+			"vh",
+			"hv",
+			"http",
+			");\n",
+			".b1_ul {\n\twidth: $w;\n\tmargin-left: auto;\n\tmargin-right: auto;\n\tdisplay: flex;\n\tflex-direction: row;\n\tjustify-content: center;\n\theight: 100%;\n\theight: 89px;\n\tbackground-color: #313030;\t\n} \n.b1_li {\n\tpadding-left: 24px;\n\tpadding-right: 24px;\n\tpadding-top: 44px;\n\tcolor: #e0e0e0;\n\tfont-family: \"Open Sans\";\n\tfont-size: 14px;\n\tfont-weight: 600;\n\ttext-transform: uppercase;\n\tletter-spacing: 0.49px;\n}\n.b1_li--active {\n\tbackground-color: #FF3F40;\n}\n.b1_jum {\n\tdisplay: flex;\n\twidth: $w;\n\tmargin-left: auto;\n\tmargin-right: auto;\n}\n.b1_jum_left {\n\tflex:6;\n}\n.b1_jum_r {\n\tflex:6\n}\n.b1_title {\n\tcolor: #000000;\n\tfont-family: \"Open Sans\";\n\tfont-size: 60px;\n\tfont-weight: 800;\n\tline-height: 72px;\n\ttext-transform: uppercase;\n\tletter-spacing: 6px;\n\tpadding-top: 108px;\n}\n.b1_text {\n\topacity: 0.7;\n\tcolor: #000000;\n\tfont-family: \"Open Sans\";\n\tfont-size: 16px;\n\tfont-weight: 400;\n\tline-height: 28px;\n\tpadding-top: 36px;\n}\n.b1_btn {\n\tmargin-top: 58px;\n\twidth: 227px;\n\theight: 55px;\n\tborder-radius: 5px;\n\tbackground-color: #ff2d2d;\n\tcolor: #ffffff;\n\tfont-family: \"Open Sans\";\n\tfont-size: 18px;\n\tfont-weight: 600;\n\tline-height: 34.06px;\n\tborder: none;\n}\n.b1_video {\n\t\n}",
+			"наши",
+			"offer-t",
+			"my1",
+			"text_small",
+			"\"tt",
+			"tt",
+			".tt",
+			".tt ",
+			"left-section-sec-offer",
+			".tt",
+			"ava-text",
+			"МЫ СВЯЖЕМСЯ С ВАМИ В ТЕЧЕНИЕ 10 минут ",
+			"ОСТАВЬТЕ ЗА",
+			"numbers",
+			"tel",
+			"При покупке букета дизайнерская",
+			"И МЫ СВЯЖЕМСЯ С",
+			"sec-header",
+			"\n\t\t\t\t\t",
+			"ОСТАВЬТЕ ЗАЯВКУ",
+			"300",
+			"доставка",
+			"</br",
+			"id=\"ord\"",
+			"font-family",
+			"ord_input",
+			"\"orderform",
+			"ord",
+			"ХОТИТЕ СДЕЛАТЬ",
+			"data-target=\"#orderform\"",
+			"form",
+			"name=\"referer\"",
+			"name=\"pphone\"",
+			"name=\"pname\"",
+			"form",
+			"req",
+			"form",
+			"15 минут",
+			".result",
+			"action=\"",
+			"роз",
+			"img2/",
+			"Коробка Сладо",
+			"грн.",
+			"21 роза",
+			"50",
+			"how",
+			" оплачиваете зак",
+			"jumbo",
+			".offer",
+			".png",
+			"bg",
+			"bg-ar",
+			"bg-arr.png",
+			"our-advantages",
+			"advantages",
+			"БОЛЕЕ 50 ВИДОВ КРЕАТИВНЫХ БУКЕТОВ",
+			"ДИЗАЙНЕРСКАЯ",
+			"Markets & Categorie",
+			"vent is.",
+			"#8232;",
+			"&#8232;",
+			" /&#823",
+			" /&#8232;/",
+			" \\x{2029}",
+			" ",
+			"  <",
+			"  event is",
+			"  Product development",
+			"video",
+			"timer",
+			" key",
+			"key ",
+			"key",
+			"force3D",
+			".addClass('slide_db');",
+			"15",
+			"upBloc",
+			"var upBlock =",
+			"upBlock",
+			"15",
+			"462",
+			"15",
+			"addOnWheel",
+			"prevent",
+			"15",
+			"3d"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "main.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"app.js",
+				"resources\\assets\\frontend\\js\\app.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 170.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
