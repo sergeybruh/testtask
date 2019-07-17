@@ -1,4 +1,9 @@
 $(document).ready(function() {
+	$(".hamburger").click(function(event) {
+		$(this).toggleClass("is-active");
+		$(".navtabs").toggleClass("active");
+		$(".serachbar_wrap").toggleClass("active");
+	});
 	$(".owl-carousel1").owlCarousel({
 		items: 1,
 		autoWidth: false,

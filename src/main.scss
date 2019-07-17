@@ -1,3 +1,5 @@
+@import '../libs/burger/burger';
+
 *::-webkit-input-placeholder {
 	color: #b7b7b7;
 	opacity: 1;
@@ -52,8 +54,7 @@ body textarea:required:valid {
 	
 }
 body {
-	font-family: "RobotoRegular", sans-serif;
-	font-size: 16px;
+	font-family: Lato;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -119,33 +120,81 @@ table {
 .wrap {
 	justify-content: center;
 	width: 100%;
-	min-width: 1140px;
-	
+	display: block;
+	min-width: 320px;
 	.inner {
-		width: 1140px;
-		margin-left: auto;
-		margin-right: auto;
-		//margin-top: 24px;
-		//display: flex;
-		
+		&.first-inner {
+			width: 1140px;
+			height: 70px;
+			@media only screen and (max-width : 1140px) {
+				width: 90%;
+			}
+			display: block;
+		}
 	}
 }
 .navbar {
 	height: 70px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #FFF;
+	z-index: 999;
+	.inner-navbar {
+		width: 1140px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		@media only screen and (max-width : 1140px) {
+			width: 90%;
+		}
+	}
 	.logo {
 		float: left;
 		margin-top: 24px;
 	}
+	.hamburger {
+		display: none;
+		@media only screen and (max-width : 1024px) {
+			display: block;
+		}
+		position: fixed;
+		right: 0;
+		top: 10px;
+	}
+
+	//f1
 	.navtabs {
 		display: flex;
 		float: right;
 		width: 390px;
 		height: 100%;
+		z-index: 100000;
+		@media only screen and (max-width : 1024px) {
+			background-color: #fff;
+			position: fixed;
+			right: 0;
+			top: 70px;
+			flex-direction: column;
+			z-index: 110;
+			width: 200px;
+			padding-top: 60px;
+			height: calc(100% - 70px - 60px);
+			border-left: 1px solid #ccc;
+			display: none;
+			&.active {
+				display: flex;
+			}
+		}
 		.navtabs__item {
 			position: relative;
 			margin-right: 55px;
 			height: 100%;
-			display: block;
+			
+			@media only screen and (max-width : 1024px) {
+				margin-right: 0;
+			}
 			&:last-child {
 				margin-right: 0px;
 			}
@@ -162,6 +211,14 @@ table {
 				letter-spacing: 0.64px;
 				cursor: pointer;
 				text-decoration: none;
+				@media only screen and (max-width : 1024px) {
+					height: auto;
+					text-align: center;
+					padding-left: 10px;
+					padding-right: 1px;
+					box-sizing: border-box;
+					padding-top: 0;
+				}
 				&:hover {
 					padding-right: 0;
 					font-family: Lato;
@@ -218,6 +275,16 @@ table {
 		}
 	}
 	.serachbar_wrap {
+		@media only screen and (max-width : 1024px) {
+			position: fixed;
+			right: 0;
+			top: 60px;
+			z-index: 120;
+			display: none;
+			&.active {
+				display: flex;
+			}
+		}
 		padding-top: 24px;
 		float: right;
 		position: relative;
@@ -258,6 +325,10 @@ table {
     		
     	}
     	.owl-title {
+    		
+    		@media only screen and (max-width : 632px) {
+				font-size: 24px;
+    		}
 			display: block;
 			text-align: center;
 			font-family: Lato;
@@ -286,6 +357,11 @@ table {
 			font-weight: 400;
 			line-height: 30px;
 			letter-spacing: 0.64px;
+			@media only screen and (max-width : 632px) {
+				padding-top: 60px;
+				padding-left: 7px;
+				padding-right: 7px;
+    		}
     	}
     	.owl-nav {
     		position: absolute;
@@ -334,6 +410,10 @@ table {
 }
 .chooseus {
 	height: 689px;
+	width: 100%;
+	@media only screen and (max-width : 1151px) {
+		height: auto;	
+	}
 	.title {
 		margin-top: 115px;
 		text-align: center;
@@ -360,11 +440,25 @@ table {
 		letter-spacing: 0.56px;
 		margin-top: 33px;
 		max-width: 694px;
+		@media only screen and (max-width : 710px) {
+			max-width: none;
+			box-sizing: border-box;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
 	}
 	.blocks_wrap {
 		display: flex;
 		width: 1141px;
-		justify-content: space-between;
+		margin-left: auto;
+		margin-right: auto;
+		justify-content: space-around;
+		@media only screen and (max-width : 1151px) {
+			width: 90%;
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+		
 		position: relative;
 		margin-top: 89px;
 		
@@ -373,6 +467,9 @@ table {
 			height: 270px;
 			border: 1px solid #ebebeb;
 			position: relative;
+			@media only screen and (max-width : 1151px) {
+				margin-bottom: 40px;
+			}
 			&:hover {
 				.subblock {
 					opacity: 1;
@@ -465,6 +562,7 @@ table {
 	background-image: url(../img/ourproductsbg.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: cover;
 	.op_header {
 		background-color: #F4F4F4;
 		height: 161px;
@@ -509,6 +607,11 @@ table {
 			} 
 		}
 		width: 1142px;
+		@media only screen and (max-width : 1142px) {
+			width: 90%;
+			height: auto;
+			padding-bottom: 170px;
+		}
 		justify-content: space-between;
 		.op_slide {
 			width: 100%;
@@ -615,11 +718,19 @@ table {
 				display: flex;
 				justify-content: space-around;
 				align-items: center;
+
+				@media only screen and (max-width : 1140px) {
+					flex-direction: column;
+					height: 635px;
+					width: 100%;
+					background-color: transparent;
+				}
 			}
 			.gtcform {
 				width: 490px;
 				height: 271px;
 				position: relative;
+				
 				//margin-right: 13px + 15px + 65px;
 				.selectric-wrapper {
 					float: right;
@@ -717,6 +828,7 @@ table {
 					margin-top: 14px;
 				
 				}
+				
 				.lcheck {
 					color: #b7b7b7;
 					font-family: Lato;
@@ -746,6 +858,26 @@ table {
 					display: none;
 					
 				}
+				@media only screen and (max-width : 500px) {
+					width: 90%;
+					.name {
+						width: 100%;
+					}
+					.selectric-wrapper {
+						width: 100%;
+						margin-top: 10px
+					}
+					.message {
+						width: 100%;
+					}
+					.button {
+						width: 100%;
+						margin-top: 50px;
+					}
+					.lcheck {
+						bottom: -34px;
+					}
+				}
 
 			}
 			.gtccontacts {
@@ -754,6 +886,9 @@ table {
 				font-size: 16px;
 				font-weight: 400;
 				line-height: 24px;
+				@media only screen and (max-width : 500px) {
+					padding-top: 60px;
+				}
 			}
 		}
 	}
@@ -764,6 +899,7 @@ table {
 	background-color: #1a1a1a;
 	display: flex;
 	justify-content: space-between;
+	
 	.copy {
 		display: flex;
 	    width: 370px;
@@ -777,7 +913,7 @@ table {
 		letter-spacing: 0.4px;
 	}
 	.soc {
-	   width: 162px;
+	   	width: 162px;
 	    display: flex;
 	    padding-right: 31px;
 	    align-items: center;
@@ -809,6 +945,22 @@ table {
 			width: 20px;
 			height: 21px;
 			background-image: url(../img/drsoc.png);
+
+		}
+	}
+	@media only screen and (max-width : 620px) {
+		flex-direction: column;
+		height: 100px;
+		justify-content: space-evenly;
+	    align-items: center;
+		.soc {
+		   
+		}
+		.copy {
+			 width: 90%;
+			padding-left: 10px;
+			padding-right: 10px;
+			text-align: center;
 
 		}
 	}
