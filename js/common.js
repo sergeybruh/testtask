@@ -1,4 +1,33 @@
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+
 $(document).ready(function() {
+
+	$(window).scroll(function(){
+	     var $sections = $('.track');
+		$sections.each(function(i,el){
+	        var top  = $(el).offset().top-100;
+	        var bottom = top +$(el).height();
+	        var scroll = $(window).scrollTop();
+	        var id = $(el).attr('id');
+	    	if( scroll > top && scroll < bottom){
+	            $('a.active').removeClass('active');
+				$('a[href="#'+id+'"]').addClass('active');
+
+	        }
+	    })
+	 });
+
+
+
 	$(".hamburger").click(function(event) {
 		$(this).toggleClass("is-active");
 		$(".navtabs").toggleClass("active");
@@ -17,7 +46,7 @@ $(document).ready(function() {
 		autoWidth: false,
 		nav: false,
 		loop: true,
-		autoplay: true,
+		autoplay: false,
 		autoplayTimeout: 3000,
 	});
 	$(function() {
@@ -41,5 +70,8 @@ $(document).ready(function() {
 
 	    // animated top scrolling
 	    $('body, html').animate({scrollTop: pos});
+
+
+		
 	});
 });

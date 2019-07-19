@@ -87,7 +87,7 @@
 							</a>
 						</li>
 					</ul>
-					<button class="hamburger hamburger--collapse " type="button">
+					<button class="hamburger--3dx hamburger hamburger--collapse " type="button">
 					  <span class="hamburger-box">
 					    <span class="hamburger-inner"></span>
 					  </span>
@@ -95,7 +95,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="jumbo" id="jumbo">
+		<div class="jumbo track" id="jumbo">
 			<div class="owl-carousel owl-carousel1">
 			  <div>
 			  	<h1 class="owl-title">Creative <span class="owl-yellow">Design Agency</span></h1>
@@ -118,7 +118,7 @@
 			</div>
 		</div>
 		<div class="inner">	
-			<div class="chooseus" id="chooseus">
+			<div class="chooseus track" id="chooseus">
 				<h1 class="title">
 					Why <span class="blue">Choose Us</span>
 				</h1>
@@ -205,7 +205,7 @@ Nullam at scelerisque tellus mattis volutpat rhoncus,
 				</div>
 			</div>
 		</div>
-		<div class="ourproducts" id="ourproducts">
+		<div class="ourproducts track" id="ourproducts">
 			<div class="op_header">
 				<h3 class="op_title">
 					our <span class="yellow">products</span>
@@ -367,12 +367,13 @@ Nullam at scelerisque tellus mattis volutpat rhoncus,
 		</div>
 		<!-- <div class="inner"> -->
 
-		<div class="getintoch" id="getintoch">
+		<div class="getintoch track" id="getintoch">
 			<h3 class="gtc_title">get in <span class="blue">touch</span></h3>
 			<p class="gtc_text">Quisque fermentum, nisl mattis volutpat rhoncus, tellus est congue nibh, ut euismod quam nisi quis felis. <br> 
 Nullam at scelerisque tellus mattis volutpat rhoncus, </p>
 			<div class="gtc_map">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20323.417448567976!2d30.511004599339834!3d50.45176946726242!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ceff5e8fd459%3A0xca0844f4853c923f!2z0JHQtdGB0YHQsNGA0LDQsdGB0LrQuNC5INGA0YvQvdC-0Lo!5e0!3m2!1sru!2sua!4v1562852255819!5m2!1sru!2sua"  frameborder="0" style="border:0" allowfullscreen></iframe>
+			    <div id="map"></div>
+
 				<div class="gtc_black">
 					<div class="gtc_black2">
 						<form action="#" class="gtcform">
@@ -418,6 +419,10 @@ Nullam at scelerisque tellus mattis volutpat rhoncus, </p>
 		</div>
 		<!-- </div> -->
 	</div>
+
+	    <script>
+
+    </script>
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
@@ -430,7 +435,9 @@ Nullam at scelerisque tellus mattis volutpat rhoncus, </p>
 	<script src="libs/jquery.placeholder.min.js"></script>
 	<script src="libs/selectric/jquery.selectric.min.js"></script>
 
-
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDh5UZ0IHtEwaIXQX8h0pg3lqy7cv3sUDg&callback=initMap">
+    </script>
 	<script src="js/common.js"></script>
 	<script src="libs/owl/owl.carousel.js"></script>
 	
