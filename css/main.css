@@ -296,6 +296,7 @@ table {
         letter-spacing: 0.64px;
         cursor: pointer;
         text-decoration: none;
+        height: 73px !important;
         height: 100%;
         display: block; }
         @media only screen and (max-width: 1024px) {
@@ -312,10 +313,19 @@ table {
           font-family: Lato;
           font-weight: 700;
           letter-spacing: 0.64px; }
+      .navbar .navtabs .navtabs__item .drd:hover .sublist {
+        display: block !important; }
+        @media only screen and (max-width: 1024px) {
+          .navbar .navtabs .navtabs__item .drd:hover .sublist {
+            display: none !important; } }
+      .navbar .navtabs .navtabs__item .drd .subitem:hover .trdlist {
+        visibility: visible; }
+      .navbar .navtabs .navtabs__item .drd .subitem.fff {
+        width: 146px; }
       .navbar .navtabs .navtabs__item .sublist {
         display: none;
         position: absolute;
-        top: 46px;
+        top: 70px;
         width: 183px;
         background-color: rgba(0, 0, 0, 0.65);
         border-top: 2px solid #fff200; }
@@ -334,15 +344,19 @@ table {
             font-weight: 300;
             letter-spacing: 1.05px; }
         .navbar .navtabs .navtabs__item .sublist .trdlist {
+          visibility: hidden;
           border-top: 2px solid #fff200;
           position: absolute;
           right: -183px;
           top: 90px;
           width: 183px;
-          background-color: rgba(0, 0, 0, 0.65); }
+          background-color: rgba(0, 0, 0, 0.65);
+          color: #fdfdfd; }
           .navbar .navtabs .navtabs__item .sublist .trdlist .trd_item {
             padding-left: 18px;
             padding-right: 18px; }
+            .navbar .navtabs .navtabs__item .sublist .trdlist .trd_item:hover {
+              color: #fff200; }
   .navbar .serachbar_wrap {
     padding-top: 24px;
     float: right;

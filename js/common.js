@@ -10,7 +10,7 @@ function initMap() {
 }
 
 $(document).ready(function() {
-
+	//выбор активного пункта меню 
 	$(window).scroll(function(){
 	     var $sections = $('.track');
 		$sections.each(function(i,el){
@@ -27,12 +27,14 @@ $(document).ready(function() {
 	 });
 
 
-
+	//бургер
 	$(".hamburger").click(function(event) {
 		$(this).toggleClass("is-active");
 		$(".navtabs").toggleClass("active");
 		$(".serachbar_wrap").toggleClass("active");
 	});
+
+	//слайдер1
 	$(".owl-carousel1").owlCarousel({
 		items: 1,
 		autoWidth: false,
@@ -41,17 +43,22 @@ $(document).ready(function() {
 		autoplay: true,
 		autoplayTimeout: 5000,
 	});
+	//слайдер2
 	$(".op_owl").owlCarousel({
 		items: 1,
 		autoWidth: false,
 		nav: false,
 		loop: true,
-		autoplay: false,
+		autoplay: true,
 		autoplayTimeout: 3000,
 	});
+	// ВЫПАДАЮЩИЙ СПИСОК В ФОРМЕ 
 	$(function() {
 	  $('.email').selectric();
 	});
+
+
+	//МЕДЛЕННЫЙ СКРОД К ЯКОРЮ 
 	$(document).on('click', 'a[href^="#"]', function(e) {
 	    // target element id
 	    var id = $(this).attr('href');
